@@ -63,9 +63,7 @@
                                  newloc.y = ((UIView *)[prompts objectAtIndex:i]).center.y;
                                  ((UIView *)[prompts objectAtIndex:i]).center = newloc;                         }
                          }
-                         completion:^(BOOL finished){
-                             NSLog(@"%f",((UIView *)[prompts objectAtIndex:3]).center.x);
-                         }];
+                         completion:NULL];
         
         promptsLeft--;
         
